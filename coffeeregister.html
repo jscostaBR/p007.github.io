@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diário de um Coffee Lover</title>
+    <!--====== CSS Here ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/lightcase.css" />
+    <link rel="stylesheet" href="assets/css/meanmenu.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/jquery-ui.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+        <div class="menu-area menu-area-2 custom-padding pb-15">
+          <div class="container-fluid custom-width">
+            <div class="row">
+              <div class="col-xl-8 col-lg-9 col-6">
+                <div class="main-menu main-menu__2">
+                  <div class="logo mm-only d-md-inline">
+                    <a href="suplierregister.html" class="text-decoration-none"></a>
+                      <img
+                        src="assets/images/logo/Logo-Diario-AF.png"
+                        alt="img"
+                        width="150"
+                        class="pr-10"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="border-bottom: 1px solid silver;"></div>
+      </header>
+    <main class="my-4">
+        <div class="container">
+            <div class="row">
+            <div class="col">
+                <h5>Cadastro de Cafés</h5>
+                <div class="accordion" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Registro do Café
+                    </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nomedocafe1" class="form-label"
+                                >Nome do Café</label
+                                >
+                                <input type="text" class="form-control" id="nomedocafe1" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="sensorialencontrado1" class="form-label"
+                                >Sensorial encontrado</label
+                                >
+                                <input type="text" class="form-control" id="sensorialencontrado1" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="safra1" class="form-label"
+                                >Safra</label
+                                >
+                                <input type="text" class="form-control" id="safra1" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="fazenda1" class="form-label"
+                                >Fazenda</label
+                                >
+                                <input type="text" class="form-control" id="fazenda1" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="variedade1" class="form-label"
+                                >Variedade</label
+                                >
+                                <input type="text" class="form-control" id="variedade1" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="estoque1" class="form-label"
+                                >Estoque</label
+                                >
+                                <input type="text" class="form-control" id="estoque1" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco1kg1" class="form-label"
+                                >Preço de 1kg</label
+                                >
+                                <input type="text" class="form-control" id="preco1kg1" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco250g1" class="form-label"
+                                >Preço de 250g</label
+                                >
+                                <input type="text" class="form-control" id="preco250g1" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco100g1" class="form-label"
+                                >Preço de 100g</label
+                                >
+                                <input type="text" class="form-control" id="preco100g1" />
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+                <!-- <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Café n° 2
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                        <form>
+                            <div class="mb-3">
+                                    <label for="nomedocafe2" class="form-label"
+                                    >Nome do Café</label
+                                    >
+                                    <input type="text" class="form-control" id="nomedocafe2" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="sensorialencontrado2" class="form-label"
+                                    >Sensorial encontrado</label
+                                    >
+                                    <input type="text" class="form-control" id="sensorialencontrado2" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="safra2" class="form-label"
+                                    >Safra</label
+                                    >
+                                    <input type="text" class="form-control" id="safra2" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="fazenda2" class="form-label"
+                                    >Fazenda</label
+                                    >
+                                    <input type="text" class="form-control" id="fazenda2" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="variedade2" class="form-label"
+                                    >Variedade</label
+                                    >
+                                    <input type="text" class="form-control" id="variedade2" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="estoque2" class="form-label"
+                                    >Estoque</label
+                                    >
+                                    <input type="text" class="form-control" id="estoque2" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="preco1kg2" class="form-label"
+                                    >Preço de 1kg</label
+                                    >
+                                    <input type="text" class="form-control" id="preco1kg2" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="preco250g2" class="form-label"
+                                    >Preço de 250g</label
+                                    >
+                                    <input type="text" class="form-control" id="preco250g2" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="preco100g2" class="form-label"
+                                    >Preço de 100g</label
+                                    >
+                                    <input type="text" class="form-control" id="preco100g2" />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Café n° 3
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nomedocafe3" class="form-label"
+                                >Nome do Café</label
+                                >
+                                <input type="text" class="form-control" id="nomedocafe3" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="sensorialencontrado3" class="form-label"
+                                >Sensorial encontrado</label
+                                >
+                                <input type="text" class="form-control" id="sensorialencontrado3" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="safra3" class="form-label"
+                                >Safra</label
+                                >
+                                <input type="text" class="form-control" id="safra3" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="fazenda3" class="form-label"
+                                >Fazenda</label
+                                >
+                                <input type="text" class="form-control" id="fazenda3" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="variedade3" class="form-label"
+                                >Variedade</label
+                                >
+                                <input type="text" class="form-control" id="variedade3" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="estoque3" class="form-label"
+                                >Estoque</label
+                                >
+                                <input type="text" class="form-control" id="estoque3" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco1kg3" class="form-label"
+                                >Preço de 1kg</label
+                                >
+                                <input type="text" class="form-control" id="preco1kg3" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco250g3" class="form-label"
+                                >Preço de 250g</label
+                                >
+                                <input type="text" class="form-control" id="preco250g3" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco100g3" class="form-label"
+                                >Preço de 100g</label
+                                >
+                                <input type="text" class="form-control" id="preco100g3" />
+                            </div>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        Café n° 4
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="mb-3">
+                                <label for="nomedocafe4" class="form-label"
+                                >Nome do Café</label
+                                >
+                                <input type="text" class="form-control" id="nomedocafe4" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="sensorialencontrado4" class="form-label"
+                                >Sensorial encontrado</label
+                                >
+                                <input type="text" class="form-control" id="sensorialencontrado4" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="safra4" class="form-label"
+                                >Safra</label
+                                >
+                                <input type="text" class="form-control" id="safra4" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="fazenda4" class="form-label"
+                                >Fazenda</label
+                                >
+                                <input type="text" class="form-control" id="fazenda4" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="variedade4" class="form-label"
+                                >Variedade</label
+                                >
+                                <input type="text" class="form-control" id="variedade4" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="estoque4" class="form-label"
+                                >Estoque</label
+                                >
+                                <input type="text" class="form-control" id="estoque4" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco1kg4" class="form-label"
+                                >Preço de 1kg</label
+                                >
+                                <input type="text" class="form-control" id="preco1kg4" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco250g4" class="form-label"
+                                >Preço de 250g</label
+                                >
+                                <input type="text" class="form-control" id="preco250g4" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco100g4" class="form-label"
+                                >Preço de 100g</label
+                                >
+                                <input type="text" class="form-control" id="preco100g4" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    Café n° 5
+                    </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div class="mb-3">
+                            <label for="nomedocafe4" class="form-label"
+                            >Nome do Café</label
+                            >
+                            <input type="text" class="form-control" id="nomedocafe4" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="sensorialencontrado4" class="form-label"
+                            >Sensorial encontrado</label
+                            >
+                            <input type="text" class="form-control" id="sensorialencontrado4" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="safra4" class="form-label"
+                            >Safra</label
+                            >
+                            <input type="text" class="form-control" id="safra4" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="fazenda4" class="form-label"
+                            >Fazenda</label
+                            >
+                            <input type="text" class="form-control" id="fazenda4" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="variedade4" class="form-label"
+                            >Variedade</label
+                            >
+                            <input type="text" class="form-control" id="variedade4" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="estoque4" class="form-label"
+                            >Estoque</label
+                            >
+                            <input type="text" class="form-control" id="estoque4" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="preco1kg4" class="form-label"
+                            >Preço de 1kg</label
+                            >
+                            <input type="text" class="form-control" id="preco1kg4" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="preco250g4" class="form-label"
+                            >Preço de 250g</label
+                            >
+                            <input type="text" class="form-control" id="preco250g4" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="preco100g4" class="form-label"
+                            >Preço de 100g</label
+                            >
+                            <input type="text" class="form-control" id="preco100g4" />
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        Café n° 6
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="mb-3">
+                                <label for="nomedocafe6" class="form-label"
+                                >Nome do Café</label
+                                >
+                                <input type="text" class="form-control" id="nomedocafe6" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="sensorialencontrado6" class="form-label"
+                                >Sensorial encontrado</label
+                                >
+                                <input type="text" class="form-control" id="sensorialencontrado6" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="safra6" class="form-label"
+                                >Safra</label
+                                >
+                                <input type="text" class="form-control" id="safra6" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="fazenda6" class="form-label"
+                                >Fazenda</label
+                                >
+                                <input type="text" class="form-control" id="fazenda6" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="variedade6" class="form-label"
+                                >Variedade</label
+                                >
+                                <input type="text" class="form-control" id="variedade6" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="estoque6" class="form-label"
+                                >Estoque</label
+                                >
+                                <input type="text" class="form-control" id="estoque6" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco1kg6" class="form-label"
+                                >Preço de 1kg</label
+                                >
+                                <input type="text" class="form-control" id="preco1kg6" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco250g6" class="form-label"
+                                >Preço de 250g</label
+                                >
+                                <input type="text" class="form-control" id="preco250g6" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco100g6" class="form-label"
+                                >Preço de 100g</label
+                                >
+                                <input type="text" class="form-control" id="preco100g6" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                        Café n° 7
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="mb-3">
+                                <label for="nomedocafe7" class="form-label"
+                                >Nome do Café</label
+                                >
+                                <input type="text" class="form-control" id="nomedocafe7" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="sensorialencontrado7" class="form-label"
+                                >Sensorial encontrado</label
+                                >
+                                <input type="text" class="form-control" id="sensorialencontrado7" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="safra7" class="form-label"
+                                >Safra</label
+                                >
+                                <input type="text" class="form-control" id="safra7" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="fazenda7" class="form-label"
+                                >Fazenda</label
+                                >
+                                <input type="text" class="form-control" id="fazenda7" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="variedade7" class="form-label"
+                                >Variedade</label
+                                >
+                                <input type="text" class="form-control" id="variedade7" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="estoque7" class="form-label"
+                                >Estoque</label
+                                >
+                                <input type="text" class="form-control" id="estoque7" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco1kg7" class="form-label"
+                                >Preço de 1kg</label
+                                >
+                                <input type="text" class="form-control" id="preco1kg7" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco250g7" class="form-label"
+                                >Preço de 250g</label
+                                >
+                                <input type="text" class="form-control" id="preco250g7" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco100g7" class="form-label"
+                                >Preço de 100g</label
+                                >
+                                <input type="text" class="form-control" id="preco100g7" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingEight">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                        Café n° 8
+                        </button>
+                    </h2>
+                    <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="mb-3">
+                                <label for="nomedocafe8" class="form-label"
+                                >Nome do Café</label
+                                >
+                                <input type="text" class="form-control" id="nomedocafe8" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="sensorialencontrado8" class="form-label"
+                                >Sensorial encontrado</label
+                                >
+                                <input type="text" class="form-control" id="sensorialencontrado8" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="safra8" class="form-label"
+                                >Safra</label
+                                >
+                                <input type="text" class="form-control" id="safra8" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="fazenda8" class="form-label"
+                                >Fazenda</label
+                                >
+                                <input type="text" class="form-control" id="fazenda8" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="variedade8" class="form-label"
+                                >Variedade</label
+                                >
+                                <input type="text" class="form-control" id="variedade8" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="estoque8" class="form-label"
+                                >Estoque</label
+                                >
+                                <input type="text" class="form-control" id="estoque8" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco1kg8" class="form-label"
+                                >Preço de 1kg</label
+                                >
+                                <input type="text" class="form-control" id="preco1kg8" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco250g8" class="form-label"
+                                >Preço de 250g</label
+                                >
+                                <input type="text" class="form-control" id="preco250g8" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco100g8" class="form-label"
+                                >Preço de 100g</label
+                                >
+                                <input type="text" class="form-control" id="preco100g8" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingNine">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                        Café n° 9
+                        </button>
+                    </h2>
+                    <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="mb-3">
+                                <label for="nomedocafe9" class="form-label"
+                                >Nome do Café</label
+                                >
+                                <input type="text" class="form-control" id="nomedocafe9" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="sensorialencontrado9" class="form-label"
+                                >Sensorial encontrado</label
+                                >
+                                <input type="text" class="form-control" id="sensorialencontrado9" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="safra9" class="form-label"
+                                >Safra</label
+                                >
+                                <input type="text" class="form-control" id="safra9" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="fazenda9" class="form-label"
+                                >Fazenda</label
+                                >
+                                <input type="text" class="form-control" id="fazenda9" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="variedade9" class="form-label"
+                                >Variedade</label
+                                >
+                                <input type="text" class="form-control" id="variedade9" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="estoque9" class="form-label"
+                                >Estoque</label
+                                >
+                                <input type="text" class="form-control" id="estoque9" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco1kg9" class="form-label"
+                                >Preço de 1kg</label
+                                >
+                                <input type="text" class="form-control" id="preco1kg9" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco250g9" class="form-label"
+                                >Preço de 250g</label
+                                >
+                                <input type="text" class="form-control" id="preco250g9" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco100g9" class="form-label"
+                                >Preço de 100g</label
+                                >
+                                <input type="text" class="form-control" id="preco100g9" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTen">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                        Café n° 10
+                        </button>
+                    </h2>
+                    <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="mb-3">
+                                <label for="nomedocafe10" class="form-label"
+                                >Nome do Café</label
+                                >
+                                <input type="text" class="form-control" id="nomedocafe10" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="sensorialencontrado10" class="form-label"
+                                >Sensorial encontrado</label
+                                >
+                                <input type="text" class="form-control" id="sensorialencontrado10" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="safra10" class="form-label"
+                                >Safra</label
+                                >
+                                <input type="text" class="form-control" id="safra10" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="fazenda10" class="form-label"
+                                >Fazenda</label
+                                >
+                                <input type="text" class="form-control" id="fazenda10" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="variedade10" class="form-label"
+                                >Variedade</label
+                                >
+                                <input type="text" class="form-control" id="variedade10" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="estoque10" class="form-label"
+                                >Estoque</label
+                                >
+                                <input type="text" class="form-control" id="estoque10" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco1kg10" class="form-label"
+                                >Preço de 1kg</label
+                                >
+                                <input type="text" class="form-control" id="preco1kg10" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco250g10" class="form-label"
+                                >Preço de 250g</label
+                                >
+                                <input type="text" class="form-control" id="preco250g10" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="preco100g10" class="form-label"
+                                >Preço de 100g</label
+                                >
+                                <input type="text" class="form-control" id="preco100g10" />
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer dark-bg">
+        <div class="footer__middle">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <img
+                  src="assets/images/logo/Logo-Diario-AF.png"
+                  alt=""
+                  width="150"
+                />
+              </div>
+            </div>
+          </div>
+      </footer>
+      <!--========= JS Here =========-->
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/lightcase.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/tilt.jquery.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrollwatch.js"></script>
+    <script src="assets/js/sticky-header.js"></script>
+    <script src="assets/js/waypoint.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfpGBFn5yRPvJrvAKoGIdj1O1aO9QisgQ"></script>
+    <script src="assets/js/jquery-ui-slider-range.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
